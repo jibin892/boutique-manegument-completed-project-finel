@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+    <EditText
+        android:id="@+id/trk"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt"
+
+        android:padding="10dp"
+        android:hint="Enter your Track Id"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/s"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/search"
+        android:drawableLeft="@drawable/search"
+        android:padding="10dp"
+        android:text="Search"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/docyou3"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:background="@drawable/bt"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:drawableStart="@drawable/username"
+        android:drawableLeft="@drawable/username"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/dw"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:background="@drawable/bt"
+        android:drawableLeft="@drawable/phone"
+        android:drawableStart="@drawable/phone"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/demail"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="258dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/place"
+        android:drawableLeft="@drawable/place"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/daddress"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/bt"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/dgender"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rdname"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/enter"
+        android:padding="10dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dp"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+</LinearLayout>
